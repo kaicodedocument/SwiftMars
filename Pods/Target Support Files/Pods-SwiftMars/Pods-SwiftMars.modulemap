@@ -1,0 +1,6 @@
+framework module Pods_SwiftMars {
+  umbrella header "Pods-SwiftMars-umbrella.h"
+
+  export *
+  module * { export * }
+}
