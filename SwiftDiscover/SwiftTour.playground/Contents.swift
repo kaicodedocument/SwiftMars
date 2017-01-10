@@ -154,7 +154,7 @@ func findStockCodeObj(company:String) -> Stock?{
 
 //链式调用过程
 if let targetStock = findStockCodeObj(company: "Apple") {
-    if let targetPrice = targetStock.price {
+    if var targetPrice = targetStock.price {
         let totalCost = targetPrice * 100
         print("bug apple stock will cost u \(totalCost)")
     }
@@ -180,6 +180,31 @@ if let name = optionalName {
     greeting = "hello, \(name)"
 }
 print(greeting)
+
+
+//控制语句
+let nickname:String? = nil
+let fullname:String = "john Deff"
+let informalGreeting = "hi\(nickname ?? fullname)"//如果nickname为Nil 则通过??设置默认值
+print(informalGreeting)
+
+
+//Switch
+//Switch支持任意类型的数据和各种操作
+//不需要每条判断语句写Break
+
+let vegetable = "red papper"
+switch vegetable {
+    case "blue":
+        print("blue")
+    case "red","dark"://两个参数
+        print("red and dard color")
+    case let x where x.hasSuffix("papper")://表达式 匹配值等值赋给x
+        print("spicy is end with papper")
+    default:
+        print("every thing is good")
+}
+
 
 
 

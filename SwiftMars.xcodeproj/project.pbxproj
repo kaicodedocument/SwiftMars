@@ -19,6 +19,8 @@
 		D60AE50F1E2395E800A854B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D60AE5111E2395E800A854B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		D60AE5211E239EF400A854B6 /* SwiftTour.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftTour.playground; sourceTree = "<group>"; };
+		D60AE5221E24ABAC00A854B6 /* ControlTour.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ControlTour.playground; sourceTree = "<group>"; };
+		D6873F5C1E24E6E400017908 /* Function.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Function.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,7 +137,9 @@
 		D60AE5201E239B1E00A854B6 /* SwiftDiscover */ = {
 			isa = PBXGroup;
 			children = (
+				D6873F5C1E24E6E400017908 /* Function.playground */,
 				D60AE5211E239EF400A854B6 /* SwiftTour.playground */,
+				D60AE5221E24ABAC00A854B6 /* ControlTour.playground */,
 			);
 			path = SwiftDiscover;
 			sourceTree = "<group>";
