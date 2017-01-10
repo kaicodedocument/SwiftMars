@@ -11,6 +11,9 @@
 		D60AE5061E2395E800A854B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60AE5051E2395E800A854B6 /* AppDelegate.swift */; };
 		D60AE50D1E2395E800A854B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D60AE50C1E2395E800A854B6 /* Assets.xcassets */; };
 		D60AE5101E2395E800A854B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D60AE50E1E2395E800A854B6 /* LaunchScreen.storyboard */; };
+		D6574F641E24F18600626A97 /* BasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6574F631E24F18600626A97 /* BasicViewController.swift */; };
+		D6574F661E24F2F300626A97 /* MarsMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6574F651E24F2F300626A97 /* MarsMacro.swift */; };
+		D6574F681E24F73800626A97 /* BasicEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6574F671E24F73800626A97 /* BasicEngine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		D60AE5111E2395E800A854B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		D60AE5211E239EF400A854B6 /* SwiftTour.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftTour.playground; sourceTree = "<group>"; };
 		D60AE5221E24ABAC00A854B6 /* ControlTour.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ControlTour.playground; sourceTree = "<group>"; };
+		D6574F631E24F18600626A97 /* BasicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicViewController.swift; sourceTree = "<group>"; };
+		D6574F651E24F2F300626A97 /* MarsMacro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarsMacro.swift; sourceTree = "<group>"; };
+		D6574F671E24F73800626A97 /* BasicEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicEngine.swift; sourceTree = "<group>"; };
 		D6873F5C1E24E6E400017908 /* Function.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Function.playground; sourceTree = "<group>"; };
 		EE820D739321FF644A4D0F71 /* Pods-SwiftMars.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMars.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftMars/Pods-SwiftMars.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,6 +98,7 @@
 		D60AE5181E2398F400A854B6 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				D6574F631E24F18600626A97 /* BasicViewController.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -113,6 +120,9 @@
 		D60AE51B1E23991000A854B6 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				D6574F691E24F74300626A97 /* Basic */,
+				D6574F671E24F73800626A97 /* BasicEngine.swift */,
+				D6574F6A1E24F76700626A97 /* OAuth */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -128,6 +138,7 @@
 		D60AE51D1E2399AB00A854B6 /* Define */ = {
 			isa = PBXGroup;
 			children = (
+				D6574F651E24F2F300626A97 /* MarsMacro.swift */,
 			);
 			path = Define;
 			sourceTree = "<group>";
@@ -157,6 +168,20 @@
 				D60AE5221E24ABAC00A854B6 /* ControlTour.playground */,
 			);
 			path = SwiftDiscover;
+			sourceTree = "<group>";
+		};
+		D6574F691E24F74300626A97 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Basic;
+			sourceTree = "<group>";
+		};
+		D6574F6A1E24F76700626A97 /* OAuth */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OAuth;
 			sourceTree = "<group>";
 		};
 		E0DAD55FB9E08BA6DDC2FFF1 /* Pods */ = {
@@ -291,7 +316,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6574F681E24F73800626A97 /* BasicEngine.swift in Sources */,
 				D60AE5061E2395E800A854B6 /* AppDelegate.swift in Sources */,
+				D6574F661E24F2F300626A97 /* MarsMacro.swift in Sources */,
+				D6574F641E24F18600626A97 /* BasicViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
