@@ -96,10 +96,60 @@ var cat = "define a cat anmail"; print(cat)
 
 
 
+//整数
+
+let minValue = UInt8.min
+let maxValue = UInt8.max
 
 
+//浮点数
+//Double 64位 （精度至少15位）
+//Float 32位 （精度只有6位）
+
+//类型检查 和类型推断
+//推断浮点数的类型时，Swift 总是会选择 Double 而不是Float
+
+let pi = 3.1415926
+
+//如果表达式中同时出现了整数和浮点数，会被推断为 Double 类型
+
+let anotherPi = 3 + 0.45928
+
+//数值型字面量
+//整数字面量可以被写作：
+//
+//一个十进制数，没有前缀
+//一个二进制数，前缀是0b
+//一个八进制数，前缀是0o
+//一个十六进制数，前缀是0x
 
 
+let decimailInteger = 17
+let binaryInteger = 0b10001
+let octalInteger = 0o21
+let hexadecimalInteger = 0x11
+
+//整数转换
+
+//let cannotBeNegative： UInt8 = -1
+//let tooBig: Int8 = Int8.max + 1
+
+//只有类型相同才可以相互操作，尽量避免隐式转换，使代码意图清晰
+let twoThousand: UInt16 = 2000
+let one: UInt8 = 1
+let twoThousanAndOne = twoThousand + UInt16(one)
+print(twoThousanAndOne, separator: "", terminator: "")
+
+//UInt16构造器
+//并不能传入任意类型的值，只能传入 UInt16 内部有对应构造器的值
+let doubleValue: Double = 3.15468454
+let initivalValue: UInt16 = UInt16.init(doubleValue)
+print(initivalValue)
+
+//如果没有你想要类型，可以通过扩展方式实现
+
+
+//整数和浮点数转换
 
 
 
