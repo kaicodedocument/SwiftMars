@@ -29,6 +29,8 @@
 		D6574F631E24F18600626A97 /* BasicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicViewController.swift; sourceTree = "<group>"; };
 		D6574F651E24F2F300626A97 /* MarsMacro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarsMacro.swift; sourceTree = "<group>"; };
 		D6574F671E24F73800626A97 /* BasicEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicEngine.swift; sourceTree = "<group>"; };
+		D6574F6B1E25D87C00626A97 /* OptionalType.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = OptionalType.playground; sourceTree = "<group>"; };
+		D660D8A61E5BE28B00F78915 /* BasicPart.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BasicPart.playground; sourceTree = "<group>"; };
 		D6873F5C1E24E6E400017908 /* Function.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Function.playground; sourceTree = "<group>"; };
 		EE820D739321FF644A4D0F71 /* Pods-SwiftMars.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMars.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftMars/Pods-SwiftMars.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -163,9 +165,11 @@
 		D60AE5201E239B1E00A854B6 /* SwiftDiscover */ = {
 			isa = PBXGroup;
 			children = (
+				D660D8A51E5BE27200F78915 /* Basic */,
 				D6873F5C1E24E6E400017908 /* Function.playground */,
 				D60AE5211E239EF400A854B6 /* SwiftTour.playground */,
 				D60AE5221E24ABAC00A854B6 /* ControlTour.playground */,
+				D6574F6B1E25D87C00626A97 /* OptionalType.playground */,
 			);
 			path = SwiftDiscover;
 			sourceTree = "<group>";
@@ -182,6 +186,14 @@
 			children = (
 			);
 			path = OAuth;
+			sourceTree = "<group>";
+		};
+		D660D8A51E5BE27200F78915 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				D660D8A61E5BE28B00F78915 /* BasicPart.playground */,
+			);
+			path = Basic;
 			sourceTree = "<group>";
 		};
 		E0DAD55FB9E08BA6DDC2FFF1 /* Pods */ = {
