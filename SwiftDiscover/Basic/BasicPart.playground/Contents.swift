@@ -151,9 +151,51 @@ print(initivalValue)
 
 //整数和浮点数转换
 
+let three = 3
+let pointOneFour = 0.345875
+let piDef = Double(three) + pointOneFour
+print(piDef)
+
+let integerPi = Int(piDef)
+
+//类型别名
+
+typealias AnduioSample = UInt16
+var maxdfValue = AnduioSample.max
+print(maxdfValue)
+
+//元组
+//把多个值组合成一个复合值， 元组内的值可以是任意类型。
+//定义一个类型为 (Int, String) 的元组
+let http404Error = (404,"Page Not Found")
+
+//访问
+
+let (statusCode,message) = http404Error
+print("status code is\(statusCode) and message is \(message)")
 
 
+let groupValue = (1201,"澜山一号",12)
+let (groupNum,groupName,groupPeoples) = groupValue
+print("编号为\(groupNum) 车队\(groupName) 总共有 \(groupPeoples)人")
 
+//只访问元祖部分属性，不需要访问属性通过占位符_替代
+
+let (dfgroupNum,dfgroupName, _) = groupValue
+print("部分属性 编号为\(dfgroupNum) 车队\(dfgroupName)")
+
+//下标访问 (下标从0开始)
+
+print("车队名称\(groupValue.1)")
+print("车队人数\(groupValue.2)人")
+
+//元素属性命名 (很好用啊)
+//作为函数返回值时，元组非常有用
+//元组在临时组织值的时候很有用，但是并不适合创建复杂的数据结构。
+//如果你的数据结构并不是临时使用，请使用类或者结构体而不是元组
+
+let dfGroupValue = (CarNum:1201,CarsName:"澜山一号",CarsPeopls:12)
+print("车队编号: \(dfGroupValue.CarNum) 车队名称 \(dfGroupValue.CarsName)")
 
 
 
