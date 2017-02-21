@@ -52,7 +52,60 @@ def40Var = def40
 //def40Var = 450
 //def40Var = def40
 
-//F：
+//F：如果需要使用与Swift保留关键字相同的名称作为常量或者变量名，
+//   可以使用反引号（`）将关键字包围的方式将其作为名字使用 (尽力避免)
+
+def40Var = "define !"
+
+//输出常量和变量
+
+print(def40Var)
+
+//print(_:separator:terminator:) 是一个用来输出一个或多个值到适当输出区的全局函数
+//separator 和 terminator 参数具有默认值
+//默认情况下，该函数通过添加换行符来结束当前行
+//不想换行
+
+print(def40Var, separator: "", terminator: "")
+print("Max is great word for \(def40Var)")
+
+
+//注释
+
+//单行注释
+/*
+ 多行注释
+ 创建时间:2017年02月21日11:39:08
+ 创建人 :chenkai
+ */
+
+//多行注释可以相互嵌套
+
+/*
+ 第一多行注释
+ /*第二个多行注释*/
+ */
+
+
+//分号
+
+//不强制使用分号
+//有一种情况下必须要用分号，即你打算在同一行内写多条独立的语句
+
+var cat = "define a cat anmail"; print(cat)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
