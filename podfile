@@ -2,5 +2,7 @@ target 'SwiftMars' do
 use_frameworks!
 platform :ios, '8.0'
     pod 'SnapKit'
+    pod 'Moya','~> 8.0.0'
+    pod 'Moya/RxSwift'
 end
 

@@ -4,7 +4,27 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Alamofire.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Moya.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-SwiftMars.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Result.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RxSwift.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -17,12 +37,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>C9246D5D045B2D60C1871A436316317B</key>
+		<key>10DD95301316D35CD8F65BEA6F2497D3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FC90EE7C5955889F284DF7D674DE5549</key>
+		<key>2A6D0851BA24DD25864CB23A3A83B9CC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C419A9BCC9AACDC44A26B80764B6B554</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E0A74E63139DD5EDC72D17FDC6122F3B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EFDB85DF4827734B35E8A46720ACAEE0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
