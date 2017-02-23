@@ -31,6 +31,7 @@
 		D6574F671E24F73800626A97 /* BasicEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicEngine.swift; sourceTree = "<group>"; };
 		D6574F6B1E25D87C00626A97 /* OptionalType.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = OptionalType.playground; sourceTree = "<group>"; };
 		D660D8A61E5BE28B00F78915 /* BasicPart.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BasicPart.playground; sourceTree = "<group>"; };
+		D660D8A71E5C4B0700F78915 /* Operator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Operator.playground; sourceTree = "<group>"; };
 		D6873F5C1E24E6E400017908 /* Function.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Function.playground; sourceTree = "<group>"; };
 		EE820D739321FF644A4D0F71 /* Pods-SwiftMars.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMars.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftMars/Pods-SwiftMars.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -192,6 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				D660D8A61E5BE28B00F78915 /* BasicPart.playground */,
+				D660D8A71E5C4B0700F78915 /* Operator.playground */,
 			);
 			path = Basic;
 			sourceTree = "<group>";
