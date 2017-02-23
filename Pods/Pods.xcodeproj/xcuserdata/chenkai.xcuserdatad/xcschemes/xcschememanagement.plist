@@ -4,7 +4,22 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Alamofire.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Moya.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-SwiftMars.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Result.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -17,12 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>C9246D5D045B2D60C1871A436316317B</key>
+		<key>005A963CB2B01017C56E019014253E64</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FC90EE7C5955889F284DF7D674DE5549</key>
+		<key>1215771836B84E9F9899950098D2FF80</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3769E40CA8A34759667CC69143DDCE4C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>52ACA0236F086E72B74F0A090A743D41</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
 		<dict>
 			<key>primary</key>
 			<true/>
