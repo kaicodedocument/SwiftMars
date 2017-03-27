@@ -20,43 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-//        let provider = MoyaProvider<Github>()
-//        provider.request(.userProfile("codertian")) { result in
-//            switch result{
-//            case .success(_):
-//                print("success")
-//            default:
-//                print("default")
-//            }
-//        }
         
-//        let instgramProvider = MoyaProvider<Instagram>()
-//        instgramProvider.request(.OAuth){ result in
-//            switch result{
-//            case let .success(response):
-//                if let error = try response.mapObject(ErrorInfo){
-//                    print("")
-//                }
-//            case let .failure(error):
-//                print("")
-//            }
-//        }
-        
-        
-        let provider = RxMoyaProvider<NewsService>()
-        provider.request(.categroy)
-            .mapObject(NewsResult.self)
-            .subscribe({ event in
-                switch event {
-                case .next(let newresult):
-                  print("标签总数:\(newresult.data!.data!.count) 第一个标签:\(newresult.data!.data![0].name!)")
-
-                case .error(let error):
-                    print(error)
-                case .completed:
-                    return
-                }
-        })
         return true
     }
 
@@ -80,6 +44,47 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    }
+    
+    //测试Moya 网络访问层
+    func testMoyaObjectMapper() {
+        //        let provider = MoyaProvider<Github>()
+        //        provider.request(.userProfile("codertian")) { result in
+        //            switch result{
+        //            case .success(_):
+        //                print("success")
+        //            default:
+        //                print("default")
+        //            }
+        //        }
+        
+        //        let instgramProvider = MoyaProvider<Instagram>()
+        //        instgramProvider.request(.OAuth){ result in
+        //            switch result{
+        //            case let .success(response):
+        //                if let error = try response.mapObject(ErrorInfo){
+        //                    print("")
+        //                }
+        //            case let .failure(error):
+        //                print("")
+        //            }
+        //        }
+        
+        
+        let provider = RxMoyaProvider<NewsService>()
+        provider.request(.categroy)
+            .mapObject(NewsResult.self)
+            .subscribe({ event in
+                switch event {
+                case .next(let newresult):
+                    print("标签总数:\(newresult.data!.data!.count) 第一个标签:\(newresult.data!.data![0].name!)")
+                    
+                case .error(let error):
+                    print(error)
+                case .completed:
+                    return
+                }
+            })
     }
 
 
