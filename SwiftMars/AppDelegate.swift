@@ -9,6 +9,7 @@
 import UIKit
 import Moya
 import RxSwift
+import ObjectMapper
 import Moya_ObjectMapper
 
 @UIApplicationMain
@@ -30,19 +31,32 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        }
         
 //        let instgramProvider = MoyaProvider<Instagram>()
-//        instgramProvider.request(.OAuth) { result in
+//        instgramProvider.request(.OAuth){ result in
 //            switch result{
-//            case .success(_):
-//                print("success:")
-//            case .failure(_):
-//                print("failure:")
+//            case let .success(response):
+//                if let error = try response.mapObject(ErrorInfo){
+//                    print("")
+//                }
+//            case let .failure(error):
+//                print("")
 //            }
 //        }
         
-//        let rxIntProvider = RxMoyaProvider<Instagram>()
-//        rxIntProvider.request(.OAuth)
-//            .debug()
-//            .mapObject(ErrorInfo)
+        
+        let provider = RxMoyaProvider<NewsService>()
+        provider.request(.categroy)
+            .mapObject(NewsResult.self)
+            .subscribe({ event in
+                switch event {
+                case .next(let newresult):
+                  print("标签总数:\(newresult.data!.data!.count) 第一个标签:\(newresult.data!.data![0].name!)")
+
+                case .error(let error):
+                    print(error)
+                case .completed:
+                    return
+                }
+        })
         return true
     }
 

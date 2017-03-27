@@ -7,17 +7,19 @@
 //
 
 import Foundation
-import SwiftyJSON
-import Moya_SwiftyJSONMapper
+import ObjectMapper
 
-struct ErrorInfo: ALSwiftyJSONAble {
+struct ErrorInfo: Mappable {
     var code:String?
     var error_message:String?
     var error_type:String?
     
-    init?(jsonData: JSON) {
-        self.code = jsonData["code"].string
-        self.error_message = jsonData["error_message"].string
-        self.error_type = jsonData["error_type"].string
+    init?(map: Map) {
+    }
+    
+    mutating func mapping(map: Map) {
+        code <- map["code"]
+        error_message <- map["error_message"]
+        error_type <- map["error_type"]
     }
 }

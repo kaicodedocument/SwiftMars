@@ -16,6 +16,8 @@
 		D6574F681E24F73800626A97 /* BasicEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6574F671E24F73800626A97 /* BasicEngine.swift */; };
 		D68AAF001E88C6CA00A4F341 /* InstagramApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68AAEFF1E88C6CA00A4F341 /* InstagramApi.swift */; };
 		D68AAF031E88E5E700A4F341 /* ErrorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68AAF021E88E5E700A4F341 /* ErrorInfo.swift */; };
+		D68AAF061E88F58C00A4F341 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68AAF051E88F58C00A4F341 /* Model.swift */; };
+		D68AAF081E88F5F600A4F341 /* TouTiaoEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68AAF071E88F5F600A4F341 /* TouTiaoEngine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		D6873F5C1E24E6E400017908 /* Function.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Function.playground; sourceTree = "<group>"; };
 		D68AAEFF1E88C6CA00A4F341 /* InstagramApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramApi.swift; sourceTree = "<group>"; };
 		D68AAF021E88E5E700A4F341 /* ErrorInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorInfo.swift; sourceTree = "<group>"; };
+		D68AAF051E88F58C00A4F341 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		D68AAF071E88F5F600A4F341 /* TouTiaoEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouTiaoEngine.swift; sourceTree = "<group>"; };
 		EE820D739321FF644A4D0F71 /* Pods-SwiftMars.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMars.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftMars/Pods-SwiftMars.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				D68AAF021E88E5E700A4F341 /* ErrorInfo.swift */,
+				D68AAF051E88F58C00A4F341 /* Model.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -128,6 +133,7 @@
 		D60AE51B1E23991000A854B6 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				D68AAF041E88F57B00A4F341 /* Toutiao */,
 				D68AAEFE1E88C6A300A4F341 /* Instagram */,
 				D6574F691E24F74300626A97 /* Basic */,
 			);
@@ -202,6 +208,14 @@
 				D68AAEFF1E88C6CA00A4F341 /* InstagramApi.swift */,
 			);
 			path = Instagram;
+			sourceTree = "<group>";
+		};
+		D68AAF041E88F57B00A4F341 /* Toutiao */ = {
+			isa = PBXGroup;
+			children = (
+				D68AAF071E88F5F600A4F341 /* TouTiaoEngine.swift */,
+			);
+			path = Toutiao;
 			sourceTree = "<group>";
 		};
 		E0DAD55FB9E08BA6DDC2FFF1 /* Pods */ = {
@@ -336,6 +350,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D68AAF061E88F58C00A4F341 /* Model.swift in Sources */,
+				D68AAF081E88F5F600A4F341 /* TouTiaoEngine.swift in Sources */,
 				D6574F681E24F73800626A97 /* BasicEngine.swift in Sources */,
 				D60AE5061E2395E800A854B6 /* AppDelegate.swift in Sources */,
 				D6574F661E24F2F300626A97 /* MarsMacro.swift in Sources */,

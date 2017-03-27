@@ -18,7 +18,6 @@ public enum Github{
 
 extension Github: TargetType{
     public var baseURL: URL{return URL.init(string: "http://api.github.com")!}
-   
     public var path: String{
         switch self {
         case .userProfile(let name):
@@ -34,7 +33,7 @@ extension Github: TargetType{
     
     public var parameters: [String: Any]?{
         switch self {
-        case .userProfile(_):
+        case .userRepositories(_):
             return ["sort":"pushed"]
         default:
             return nil
