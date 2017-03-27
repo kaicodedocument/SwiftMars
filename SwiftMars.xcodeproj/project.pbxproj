@@ -18,6 +18,7 @@
 		D68AAF031E88E5E700A4F341 /* ErrorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68AAF021E88E5E700A4F341 /* ErrorInfo.swift */; };
 		D68AAF061E88F58C00A4F341 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68AAF051E88F58C00A4F341 /* Model.swift */; };
 		D68AAF081E88F5F600A4F341 /* TouTiaoEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68AAF071E88F5F600A4F341 /* TouTiaoEngine.swift */; };
+		D68AAF0D1E8917D200A4F341 /* InstgramOauthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68AAF0C1E8917D200A4F341 /* InstgramOauthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		D68AAF021E88E5E700A4F341 /* ErrorInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorInfo.swift; sourceTree = "<group>"; };
 		D68AAF051E88F58C00A4F341 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		D68AAF071E88F5F600A4F341 /* TouTiaoEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouTiaoEngine.swift; sourceTree = "<group>"; };
+		D68AAF0C1E8917D200A4F341 /* InstgramOauthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstgramOauthViewController.swift; sourceTree = "<group>"; };
 		EE820D739321FF644A4D0F71 /* Pods-SwiftMars.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMars.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftMars/Pods-SwiftMars.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,6 +111,7 @@
 		D60AE5181E2398F400A854B6 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				D68AAF0B1E8917C200A4F341 /* OAuth */,
 				D6574F631E24F18600626A97 /* BasicViewController.swift */,
 			);
 			path = UI;
@@ -216,6 +219,14 @@
 				D68AAF071E88F5F600A4F341 /* TouTiaoEngine.swift */,
 			);
 			path = Toutiao;
+			sourceTree = "<group>";
+		};
+		D68AAF0B1E8917C200A4F341 /* OAuth */ = {
+			isa = PBXGroup;
+			children = (
+				D68AAF0C1E8917D200A4F341 /* InstgramOauthViewController.swift */,
+			);
+			path = OAuth;
 			sourceTree = "<group>";
 		};
 		E0DAD55FB9E08BA6DDC2FFF1 /* Pods */ = {
@@ -350,6 +361,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D68AAF0D1E8917D200A4F341 /* InstgramOauthViewController.swift in Sources */,
 				D68AAF061E88F58C00A4F341 /* Model.swift in Sources */,
 				D68AAF081E88F5F600A4F341 /* TouTiaoEngine.swift in Sources */,
 				D6574F681E24F73800626A97 /* BasicEngine.swift in Sources */,
