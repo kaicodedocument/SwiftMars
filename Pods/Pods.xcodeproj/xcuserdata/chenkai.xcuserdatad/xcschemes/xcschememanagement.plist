@@ -9,7 +9,22 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Moya-ObjectMapper.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Moya-SwiftyJSONMapper.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Moya.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ObjectMapper.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -34,15 +49,40 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SwiftyJSON.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>10DD95301316D35CD8F65BEA6F2497D3</key>
+		<key>2A6D0851BA24DD25864CB23A3A83B9CC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2A6D0851BA24DD25864CB23A3A83B9CC</key>
+		<key>421F6BEF92744C4CA9E5F012EC4C5C8F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>49C6564B2E2D0A1604946BAD65772E21</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>53BE684E262033FD284DA92E8AEF2C80</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>77E3ADE226C545E4673A5CC75D212007</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8155071DAF064517AC315CD269394A87</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -52,12 +92,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C419A9BCC9AACDC44A26B80764B6B554</key>
+		<key>A63CEDEC4B211DF7AFE6E9753C132181</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E0A74E63139DD5EDC72D17FDC6122F3B</key>
+		<key>C419A9BCC9AACDC44A26B80764B6B554</key>
 		<dict>
 			<key>primary</key>
 			<true/>

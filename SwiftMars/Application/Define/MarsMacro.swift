@@ -15,3 +15,4 @@ let TWITTER_ACCESS_TOKEN_SECRET = "FgUTMV4IAGUzydpM6YxshtCLQAh0OJiuFnULe9owU96pN
 
 //Instagram Client Data
 let INSTAGRAM_CLIENT_ID = "a836db3ac49a4fa3b7c4be82d6c63b38"
+let INSTAGRAM_REDIRECT_URL = "http://www.jianshu.com/users/b2da45cafaf1/latest_articles"

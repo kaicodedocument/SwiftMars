@@ -4,5 +4,8 @@ platform :ios, '8.0'
     pod 'SnapKit'
     pod 'Moya','~> 8.0.0'
     pod 'Moya/RxSwift'
+    pod 'SwiftyJSON'
+    pod 'Moya-ObjectMapper/RxSwift'
+    pod 'Moya-SwiftyJSONMapper/RxSwift'
 end
 
