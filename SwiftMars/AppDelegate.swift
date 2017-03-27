@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Moya
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let provider = MoyaProvider<Github>()
+        provider.request(.userProfile("codertian")) { result in
+            switch result{
+            case .success(_):
+                print("success")
+            default:
+                print("default")
+            }
+        }
         return true
     }
 

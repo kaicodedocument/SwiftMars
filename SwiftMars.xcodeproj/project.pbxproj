@@ -28,7 +28,7 @@
 		D60AE5221E24ABAC00A854B6 /* ControlTour.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ControlTour.playground; sourceTree = "<group>"; };
 		D6574F631E24F18600626A97 /* BasicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicViewController.swift; sourceTree = "<group>"; };
 		D6574F651E24F2F300626A97 /* MarsMacro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarsMacro.swift; sourceTree = "<group>"; };
-		D6574F671E24F73800626A97 /* BasicEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicEngine.swift; sourceTree = "<group>"; };
+		D6574F671E24F73800626A97 /* BasicEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BasicEngine.swift; path = SwiftMars/Application/Network/BasicEngine.swift; sourceTree = SOURCE_ROOT; };
 		D6574F6B1E25D87C00626A97 /* OptionalType.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = OptionalType.playground; sourceTree = "<group>"; };
 		D660D8A61E5BE28B00F78915 /* BasicPart.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BasicPart.playground; sourceTree = "<group>"; };
 		D660D8A71E5C4B0700F78915 /* Operator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Operator.playground; sourceTree = "<group>"; };
@@ -124,7 +124,6 @@
 			isa = PBXGroup;
 			children = (
 				D6574F691E24F74300626A97 /* Basic */,
-				D6574F671E24F73800626A97 /* BasicEngine.swift */,
 				D6574F6A1E24F76700626A97 /* OAuth */,
 			);
 			path = Network;
@@ -178,6 +177,7 @@
 		D6574F691E24F74300626A97 /* Basic */ = {
 			isa = PBXGroup;
 			children = (
+				D6574F671E24F73800626A97 /* BasicEngine.swift */,
 			);
 			path = Basic;
 			sourceTree = "<group>";
