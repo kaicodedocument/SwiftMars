@@ -23,6 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window = UIWindow(frame: UIScreen.main.bounds)
         self.window?.rootViewController = BaiscViewController()
         self.window?.makeKeyAndVisible()
+        //self.testMoyaObjectMapper()
         return true
     }
 
@@ -74,17 +75,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         
         let provider = RxMoyaProvider<NewsService>()
+//        let jsonStr = provider.request(.categroy).mapJSON()
+//        print("Json数据:\(jsonStr)")
         provider.request(.categroy)
             .mapObject(NewsResult.self)
             .subscribe({ event in
                 switch event {
-                case .next(let newresult):
-                    print("标签总数:\(newresult.data!.data!.count) 第一个标签:\(newresult.data!.data![0].name!)")
-                    
-                case .error(let error):
-                    print(error)
-                case .completed:
-                    return
+                    case .next(let newresult):
+                        print("标签总数:\(newresult.data!.data!.count) 第一个标签:\(newresult.data!.data![0].name!)")
+                    case .error(let error):
+                        print(error)
+                    case .completed:
+                        return
                 }
             })
     }
