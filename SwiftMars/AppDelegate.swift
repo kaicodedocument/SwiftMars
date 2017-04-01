@@ -51,6 +51,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     //测试Moya 网络访问层
     func testMoyaObjectMapper() {
+        
+        let daprovider = RxMoyaProvider<News>()
+        daprovider.request(.TodayHotNews(keyword: "")).debug().mapObject(New.self)
+        
         //        let provider = MoyaProvider<Github>()
         //        provider.request(.userProfile("codertian")) { result in
         //            switch result{
@@ -89,6 +93,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                         return
                 }
             })
+        
+        
+        
+        //rxswift
+        
+        let disposeBag = DisposeBag()
+        let neverSequence = Observable<String>.never()
+        let neverSequenceSubscription = neverSequence.subscribe({_ in
+            print("this will never be printed")
+        }).addDisposableTo(disposeBag)
+        
+
     }
 
 
