@@ -11,8 +11,6 @@
 		D60AE5061E2395E800A854B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60AE5051E2395E800A854B6 /* AppDelegate.swift */; };
 		D60AE50D1E2395E800A854B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D60AE50C1E2395E800A854B6 /* Assets.xcassets */; };
 		D60AE5101E2395E800A854B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D60AE50E1E2395E800A854B6 /* LaunchScreen.storyboard */; };
-		D632306F1E8F631400346BDC /* NewsEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D632306E1E8F631400346BDC /* NewsEngine.swift */; };
-		D63230711E8F65E200346BDC /* New.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63230701E8F65E200346BDC /* New.swift */; };
 		D6574F641E24F18600626A97 /* BasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6574F631E24F18600626A97 /* BasicViewController.swift */; };
 		D6574F661E24F2F300626A97 /* MarsMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6574F651E24F2F300626A97 /* MarsMacro.swift */; };
 		D6574F681E24F73800626A97 /* BasicEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6574F671E24F73800626A97 /* BasicEngine.swift */; };
@@ -33,8 +31,6 @@
 		D60AE5111E2395E800A854B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		D60AE5211E239EF400A854B6 /* SwiftTour.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftTour.playground; sourceTree = "<group>"; };
 		D60AE5221E24ABAC00A854B6 /* ControlTour.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ControlTour.playground; sourceTree = "<group>"; };
-		D632306E1E8F631400346BDC /* NewsEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsEngine.swift; sourceTree = "<group>"; };
-		D63230701E8F65E200346BDC /* New.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = New.swift; sourceTree = "<group>"; };
 		D6574F631E24F18600626A97 /* BasicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicViewController.swift; sourceTree = "<group>"; };
 		D6574F651E24F2F300626A97 /* MarsMacro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarsMacro.swift; sourceTree = "<group>"; };
 		D6574F671E24F73800626A97 /* BasicEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BasicEngine.swift; path = SwiftMars/Application/Network/BasicEngine.swift; sourceTree = SOURCE_ROOT; };
@@ -124,7 +120,6 @@
 		D60AE5191E2398FF00A854B6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				D632306D1E8F630000346BDC /* News */,
 				D68AAF021E88E5E700A4F341 /* ErrorInfo.swift */,
 				D68AAF051E88F58C00A4F341 /* Model.swift */,
 			);
@@ -141,7 +136,6 @@
 		D60AE51B1E23991000A854B6 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				D632306C1E8F62FB00346BDC /* News */,
 				D68AAF041E88F57B00A4F341 /* Toutiao */,
 				D68AAEFE1E88C6A300A4F341 /* Instagram */,
 				D6574F691E24F74300626A97 /* Basic */,
@@ -192,22 +186,6 @@
 				D6574F6B1E25D87C00626A97 /* OptionalType.playground */,
 			);
 			path = SwiftDiscover;
-			sourceTree = "<group>";
-		};
-		D632306C1E8F62FB00346BDC /* News */ = {
-			isa = PBXGroup;
-			children = (
-				D632306E1E8F631400346BDC /* NewsEngine.swift */,
-			);
-			path = News;
-			sourceTree = "<group>";
-		};
-		D632306D1E8F630000346BDC /* News */ = {
-			isa = PBXGroup;
-			children = (
-				D63230701E8F65E200346BDC /* New.swift */,
-			);
-			path = News;
 			sourceTree = "<group>";
 		};
 		D6574F691E24F74300626A97 /* Basic */ = {
@@ -388,11 +366,9 @@
 				D68AAF081E88F5F600A4F341 /* TouTiaoEngine.swift in Sources */,
 				D6574F681E24F73800626A97 /* BasicEngine.swift in Sources */,
 				D60AE5061E2395E800A854B6 /* AppDelegate.swift in Sources */,
-				D63230711E8F65E200346BDC /* New.swift in Sources */,
 				D6574F661E24F2F300626A97 /* MarsMacro.swift in Sources */,
 				D68AAF001E88C6CA00A4F341 /* InstagramApi.swift in Sources */,
 				D68AAF031E88E5E700A4F341 /* ErrorInfo.swift in Sources */,
-				D632306F1E8F631400346BDC /* NewsEngine.swift in Sources */,
 				D6574F641E24F18600626A97 /* BasicViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
